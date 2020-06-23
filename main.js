@@ -4,7 +4,7 @@ var minHorizontalRatio = 400 / 600;
 function addImages() {
     var images = ["images2", "images1", "volcano", "peak", "river", "wheel", "img7"];
     for (i in images) {
-        $("#imageSlide").append('<img src="/images/' + images[i] + '.jpg" />');
+        $("#imageSlide").append('<img src="images/' + images[i] + '.jpg" />');
     }
 
     setTimeout(function () {
